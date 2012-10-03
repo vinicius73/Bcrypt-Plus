@@ -17,3 +17,8 @@ if (Bcrypt::check($senha, $hash)) {  <br>
 } else {  <br>
 	echo 'Senha incorreta!';  <br>
 }  <br>
+
+//Gerando Senha <br>
+$Senha = Bcrypt::generateRandomString(); <br>
+//Resultado: rIBK&gx# <br>
+
