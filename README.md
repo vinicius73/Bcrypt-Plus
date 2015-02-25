@@ -22,3 +22,7 @@ if (Bcrypt::check($senha, $hash)) {  <br>
 $Senha = Bcrypt::generateRandomString(); <br>
 //Resultado: rIBK&gx# <br>
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/vinicius73/bcrypt-plus/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
